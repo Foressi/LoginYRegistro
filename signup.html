@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de contraseñas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="formulario">
+        <h1>Registro</h1>
+        <h4>Gestión de contraseñas</h4>
+        <form id="signupForm">
+            <div class="usuario">
+                <input type="text" required id="name" autofocus>
+                <label>Nombre</label>
+            </div>
+
+            <div class="usuario">
+                <input type="email" focus required id="email">
+                <label>Correo electronico</label>
+            </div>
+
+            <div class="usuario">
+                <input type="password" required id="password">
+                <label>Contraseña </label>
+            </div>
+
+            <div class="usuario">
+                <input type="submit" value="Registro"> 
+            </div>
+        </form>
+        <div class="recordar">        
+        ¿Ya creaste tu cuenta? <a href="login.html"> ¡Inicia sesión aquí!</a>
+        </div>
+    </section>
+    <script src="js/signup.js"></script>
+</body>
+</html>
